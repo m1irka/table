@@ -1,0 +1,104 @@
+table {
+    border-collapse: collapse;
+    width: 650px;
+    margin: auto;
+    font-family: Georgia, serif;
+    background: #3f4337;
+    color: #e3e6de;
+}
+
+table td, table th {
+    border-bottom: 1px solid #4a5041;
+    border-right: 1px dotted #6b7062;
+    padding: 10px 15px;
+}
+
+table td:last-child, table th:last-child {
+    border-right: none;
+}
+
+.maintext {
+    background: #8db53f;
+    color: white;
+    font-size: 42px;
+    padding: 15px 25px;
+    text-align: left;
+    border: none;
+}
+
+th {
+    padding: 15px 20px;
+    text-align: right;
+    color: white;
+}
+
+.section {
+    background: #23251e;
+}
+
+.section th,
+.section td {
+    background: #23251e;
+    border-bottom: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.section .platinum {
+    color: #8cd6d8;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section .gold {
+    color: #dfb239;
+    text-align: center;
+    font-weight: bold;
+}
+
+tr {
+    text-align: right;
+    color: #b1b9a9;
+}
+
+tr :nth-child(2) {
+    text-align: center;
+    color: #e3e6de;
+    font-weight: bold;
+}
+
+tr :nth-child(3) {
+    text-align: center;
+    color: #e3e6de;
+    font-weight: bold;
+}
+
+/* Нижний блок с ценами */
+.pricestitle th,
+.pricestitle td {
+    padding-top: 35px;
+}
+
+.pricerow td {
+    border-bottom: none;
+    padding-bottom: 30px;
+}
+
+.free {
+    font-size: 22px;
+    color: white;
+    font-weight: normal;
+}
+
+.monthly .prise {
+    font-size: 22px;
+    color: white;
+    font-weight: normal;
+}
+
+.monthly .moth {
+    font-size: 11px;
+    font-style: italic;
+    color: #9b9283;
+    font-weight: normal;
+}
